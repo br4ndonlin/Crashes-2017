@@ -78,7 +78,7 @@ def get_data_by_month(df, selected_month):
 # Create the sidebar.
 with st.sidebar:
     st.title('🚗 Crash Data Analysis')
-    filepath = 'C:/Users/brand/eclipse-workspace/FinalP/2017_Crashes_10000_sample.csv'
+    filepath = '2017_Crashes_10000_sample.csv'
     df = load_data(filepath)
     
     # Allow the user to choose a year for the analysis
